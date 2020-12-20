@@ -2,6 +2,7 @@ package com.androiddevs.runningappyt.database
 
 import android.graphics.Bitmap
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 @Entity(tableName = "Running_table")
 data class Run(
@@ -14,5 +15,6 @@ data class Run(
     var timeInMillis: Long = 0L,
     var caloriesBurnt: Int = 0
 ){
-
+    @PrimaryKey(autoGenerate = true)
+    var id: Int? = null
 }
