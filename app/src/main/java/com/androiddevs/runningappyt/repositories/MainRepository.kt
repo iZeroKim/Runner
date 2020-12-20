@@ -5,7 +5,7 @@ import com.androiddevs.runningappyt.database.RunDao
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
-@AndroidEntryPoint
+
 class MainRepository @Inject constructor(
     val runDao: RunDao
 ) {
