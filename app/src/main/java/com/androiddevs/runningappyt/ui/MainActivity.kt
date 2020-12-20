@@ -1,11 +1,9 @@
-package com.androiddevs.runningappyt
+package com.androiddevs.runningappyt.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import com.androiddevs.runningappyt.database.RunDao
+import com.androiddevs.runningappyt.R
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
